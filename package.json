@@ -1,0 +1,22 @@
+{
+  "name": "multi-vehicle-search",
+  "version": "1.0.0",
+  "description": "## Notes I'm making the assumption that stored vehicles will all face one direction, and that the storage locations are garages or similar; meaning, there's one entrance, and cars are stored such that they can drive in and out from that garage (so no rotating of the vehicle inside the garage, and all vehicles are perpendicular to the garage door).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan-d-graves/multi-vehicle-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan-d-graves/multi-vehicle-search/issues"
+  },
+  "homepage": "https://github.com/ryan-d-graves/multi-vehicle-search#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
