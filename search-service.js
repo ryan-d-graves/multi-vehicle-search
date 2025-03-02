@@ -19,6 +19,12 @@ exports.search = (req, res) => {
       vehicles.push(item.length)
     }
   }
+  if (vehicles.length === 0) {
+    return res.status(400).send("No vehicles provided!")
+  }
+  if (vehicles.length > 14) {
+    return res.status(400).send('Too many vehicles! Running this many would take too long and clog up the server.')
+  }
   const results = runSearch(vehicles)
   res.send(results)
 }
